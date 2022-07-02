@@ -1,0 +1,83 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+    margin: 0;
+    font-family: roboto;
+}
+img {
+    max-width: 100%;
+}
+header {
+    padding-top: 59px;
+    padding-bottom: 22px;
+    background-color: #3a7dfd;
+    color: #fff;
+}
+.header-pretitle {
+    margin-top: 102px;
+    font-size: 18px;
+}
+.header-title {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 36px;
+    margin-top: 21px;
+}
+.header-subtitle {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.header-button {    
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0, 83);
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #072b6f;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 17px 55px;
+    margin-top: 33px;
+}
+header small {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+}
+.heder-button-block {
+    max-width: 210px;
+}
+/* Секция портфолио */
+.portfolio {
+    background-color: #dddddd;
+    padding-top: 44px;
+    padding-bottom: 71px;   
+}
+    
+.portfolio-block {
+    background-color: #fff;
+    padding-top: 29px;
+    padding-bottom: 44px;
+}
+.portfolio-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #072b6f; 
+    margin-bottom: 10px;   
+}
+.portfolio-subtitle {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #7bb9ff;
+}
+.portfolio-title, .portfolio-subtitle {
+    text-align: center;
+}
+.portfolio-col-1 {
+    padding-left: 50px;
+}
+.portfolio-col-2 {
+    padding-right: 50px;
+}
+
+footer {
+    background-color: aqua;
+}
